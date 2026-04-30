@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/domain-status",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/cron/monitors",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/cron/tasks-overdue",
+      "schedule": "0 10 * * 1-5"
+    }
+  ]
+}

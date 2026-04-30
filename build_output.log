@@ -1,0 +1,223 @@
+
+> kalp-ltd@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+
+warn - The class `duration-[1500ms]` is ambiguous and matches multiple utilities.
+warn - If this is content and not a class, replace it with `duration-&lsqb;1500ms&rsqb;` to silence this warning.
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+(node:43579) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43580) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43578) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43578) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:43577) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+   Generating static pages (0/87) ...
+Auth me error n [Error]: Dynamic server usage: Route /api/auth/me couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/Users/amansharma/Desktop/kalp.ltd/.next/server/chunks/9276.js:1:37220)
+    at f (/Users/amansharma/Desktop/kalp.ltd/.next/server/chunks/5250.js:1:2935)
+    at f (/Users/amansharma/Desktop/kalp.ltd/.next/server/app/api/auth/me/route.js:1:1069)
+    at /Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38417
+    at /Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+    at NoopContextManager.with (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NoopTracer.startActiveSpan (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+    at ProxyTracer.startActiveSpan (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854)
+    at /Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/server/lib/trace/tracer.js:122:103 {
+  description: "Route /api/auth/me couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+  digest: 'DYNAMIC_SERVER_USAGE'
+}
+   Generating static pages (21/87) 
+Project payments summary error: n [Error]: Dynamic server usage: Route /api/project-payments/summary couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/Users/amansharma/Desktop/kalp.ltd/.next/server/chunks/9276.js:1:37220)
+    at Object.p (/Users/amansharma/Desktop/kalp.ltd/.next/server/app/api/auth/change-password/route.js:1:5589)
+    at /Users/amansharma/Desktop/kalp.ltd/.next/server/app/api/project-payments/summary/route.js:1:1065
+    at p (/Users/amansharma/Desktop/kalp.ltd/.next/server/app/api/project-payments/summary/route.js:1:1164)
+    at /Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38417
+    at /Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+    at NoopContextManager.with (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NoopTracer.startActiveSpan (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+    at ProxyTracer.startActiveSpan (/Users/amansharma/Desktop/kalp.ltd/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+  description: "Route /api/project-payments/summary couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+  digest: 'DYNAMIC_SERVER_USAGE'
+}
+(node:43574) [MONGOOSE] Warning: Duplicate schema index on {"token":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+   Generating static pages (43/87) 
+   Generating static pages (65/87) 
+ ✓ Generating static pages (87/87)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                Size     First Load JS
+┌ ○ /                                                      11.4 kB         152 kB
+├ ○ /_not-found                                            883 B          88.4 kB
+├ ○ /about-us                                              2.62 kB         144 kB
+├ ƒ /api/assets/[id]                                       0 B                0 B
+├ ƒ /api/attendance                                        0 B                0 B
+├ ƒ /api/attendance/[id]                                   0 B                0 B
+├ ƒ /api/auth/change-password                              0 B                0 B
+├ ƒ /api/auth/login                                        0 B                0 B
+├ ƒ /api/auth/logout                                       0 B                0 B
+├ ƒ /api/auth/me                                           0 B                0 B
+├ ƒ /api/boards                                            0 B                0 B
+├ ƒ /api/boards/[id]                                       0 B                0 B
+├ ƒ /api/client-onboarding/form/[token]                    0 B                0 B
+├ ƒ /api/client-onboarding/links                           0 B                0 B
+├ ƒ /api/client-onboarding/links/[id]                      0 B                0 B
+├ ƒ /api/client-onboarding/submissions                     0 B                0 B
+├ ƒ /api/client-onboarding/submissions/[id]                0 B                0 B
+├ ƒ /api/client-onboarding/submit                          0 B                0 B
+├ ƒ /api/clients                                           0 B                0 B
+├ ƒ /api/clients/[id]                                      0 B                0 B
+├ ƒ /api/clients/[id]/contacts                             0 B                0 B
+├ ƒ /api/cms/access                                        0 B                0 B
+├ ƒ /api/cms/categories                                    0 B                0 B
+├ ƒ /api/cms/categories/[id]                               0 B                0 B
+├ ƒ /api/cms/pages                                         0 B                0 B
+├ ƒ /api/cms/pages/[id]                                    0 B                0 B
+├ ƒ /api/cms/pages/by-slug/[slug]                          0 B                0 B
+├ ƒ /api/cms/posts                                         0 B                0 B
+├ ƒ /api/cms/posts/[id]                                    0 B                0 B
+├ ƒ /api/cms/posts/by-slug/[slug]                          0 B                0 B
+├ ƒ /api/cms/upload                                        0 B                0 B
+├ ƒ /api/company                                           0 B                0 B
+├ ƒ /api/cron/domain-status                                0 B                0 B
+├ ƒ /api/cron/monitors                                     0 B                0 B
+├ ○ /api/dev/seed-admin                                    0 B                0 B
+├ ƒ /api/employees                                         0 B                0 B
+├ ƒ /api/employees/[id]                                    0 B                0 B
+├ ƒ /api/employees/[id]/assets                             0 B                0 B
+├ ƒ /api/employees/refresh-leaves                          0 B                0 B
+├ ƒ /api/expenses                                          0 B                0 B
+├ ƒ /api/expenses/[id]                                     0 B                0 B
+├ ƒ /api/integrations/google-calendar/callback             0 B                0 B
+├ ƒ /api/integrations/google-calendar/connect              0 B                0 B
+├ ƒ /api/integrations/google-calendar/disconnect           0 B                0 B
+├ ƒ /api/integrations/google-calendar/sync                 0 B                0 B
+├ ƒ /api/me                                                0 B                0 B
+├ ƒ /api/meetings                                          0 B                0 B
+├ ƒ /api/meetings/[id]                                     0 B                0 B
+├ ƒ /api/meetings/[id]/meet-link                           0 B                0 B
+├ ƒ /api/meetings/stats                                    0 B                0 B
+├ ƒ /api/monitor-groups                                    0 B                0 B
+├ ƒ /api/monitor-groups/[id]                               0 B                0 B
+├ ƒ /api/monitor-groups/[id]/monitors                      0 B                0 B
+├ ƒ /api/monitors/[id]                                     0 B                0 B
+├ ƒ /api/monitors/[id]/logs                                0 B                0 B
+├ ƒ /api/monitors/run-check                                0 B                0 B
+├ ƒ /api/notifications                                     0 B                0 B
+├ ƒ /api/notifications/[id]                                0 B                0 B
+├ ƒ /api/payslips                                          0 B                0 B
+├ ƒ /api/payslips/[id]                                     0 B                0 B
+├ ƒ /api/payslips/[id]/download                            0 B                0 B
+├ ƒ /api/plans                                             0 B                0 B
+├ ƒ /api/plans/[id]                                        0 B                0 B
+├ ƒ /api/plans/[id]/pages                                  0 B                0 B
+├ ƒ /api/plans/pages/[pageId]                              0 B                0 B
+├ ƒ /api/products                                          0 B                0 B
+├ ƒ /api/products/[id]                                     0 B                0 B
+├ ƒ /api/products/[id]/external-revenue                    0 B                0 B
+├ ƒ /api/products/sync-external-revenue                    0 B                0 B
+├ ƒ /api/project-payments                                  0 B                0 B
+├ ƒ /api/project-payments/[id]                             0 B                0 B
+├ ƒ /api/project-payments/summary                          0 B                0 B
+├ ƒ /api/projects                                          0 B                0 B
+├ ƒ /api/projects/[id]                                     0 B                0 B
+├ ƒ /api/projects/[id]/documents                           0 B                0 B
+├ ƒ /api/projects/[id]/documents/[docId]                   0 B                0 B
+├ ƒ /api/projects/[id]/services                            0 B                0 B
+├ ƒ /api/projects/[id]/services/[serviceId]                0 B                0 B
+├ ƒ /api/projects/status-check                             0 B                0 B
+├ ƒ /api/reimbursement-stash                               0 B                0 B
+├ ƒ /api/reimbursements                                    0 B                0 B
+├ ƒ /api/reimbursements/[id]                               0 B                0 B
+├ ƒ /api/status                                            0 B                0 B
+├ ƒ /api/status/[groupSlug]                                0 B                0 B
+├ ƒ /api/tasks                                             0 B                0 B
+├ ƒ /api/tasks/[id]                                        0 B                0 B
+├ ƒ /api/tasks/[id]/comments                               0 B                0 B
+├ ƒ /api/tasks/counts                                      0 B                0 B
+├ ƒ /api/team-member-onboarding/form/[token]               0 B                0 B
+├ ƒ /api/team-member-onboarding/links                      0 B                0 B
+├ ƒ /api/team-member-onboarding/links/[id]                 0 B                0 B
+├ ƒ /api/team-member-onboarding/submissions                0 B                0 B
+├ ƒ /api/team-member-onboarding/submissions/[id]           0 B                0 B
+├ ƒ /api/team-member-onboarding/submit                     0 B                0 B
+├ ○ /blogs                                                 152 B           145 kB
+├ ƒ /category/[slug]                                       152 B           145 kB
+├ ○ /contact                                               3.77 kB         145 kB
+├ ƒ /dashboard                                             127 kB          262 kB
+├ ƒ /dashboard/assets                                      169 B          87.7 kB
+├ ƒ /dashboard/attendance                                  9.63 kB         140 kB
+├ ƒ /dashboard/board                                       3.38 kB         289 kB
+├ ƒ /dashboard/calendar                                    16.1 kB         165 kB
+├ ƒ /dashboard/clients                                     6.32 kB         162 kB
+├ ƒ /dashboard/clients/[id]                                173 B           170 kB
+├ ƒ /dashboard/content                                     169 B          87.7 kB
+├ ƒ /dashboard/content/categories                          5.66 kB         188 kB
+├ ƒ /dashboard/content/pages                               3.96 kB         151 kB
+├ ƒ /dashboard/content/pages/[id]/edit                     1.08 kB         325 kB
+├ ƒ /dashboard/content/pages/new                           816 B           325 kB
+├ ƒ /dashboard/content/posts                               4.16 kB         151 kB
+├ ƒ /dashboard/content/posts/[id]/edit                     1.16 kB         325 kB
+├ ƒ /dashboard/content/posts/new                           828 B           325 kB
+├ ƒ /dashboard/expenses                                    7.08 kB         156 kB
+├ ƒ /dashboard/monitor                                     8.41 kB         198 kB
+├ ƒ /dashboard/payments                                    5.31 kB         141 kB
+├ ƒ /dashboard/payslips                                    9.64 kB         140 kB
+├ ƒ /dashboard/people                                      13.3 kB         209 kB
+├ ƒ /dashboard/people/[id]                                 17.6 kB         163 kB
+├ ƒ /dashboard/people/new                                  6.36 kB         142 kB
+├ ƒ /dashboard/products                                    8.39 kB         188 kB
+├ ƒ /dashboard/projects                                    196 B           112 kB
+├ ƒ /dashboard/projects/all                                185 B           112 kB
+├ ƒ /dashboard/projects/clients/[id]                       172 B           170 kB
+├ ƒ /dashboard/projects/clients/[id]/projects/[projectId]  13.1 kB         307 kB
+├ ƒ /dashboard/projects/clients/[id]/projects/new          381 B           281 kB
+├ ƒ /dashboard/projects/new                                1.71 kB         290 kB
+├ ƒ /dashboard/projects/payments                           7.59 kB         156 kB
+├ ƒ /dashboard/projects/plans                              6.95 kB         156 kB
+├ ƒ /dashboard/projects/plans/[id]                         6.6 kB          146 kB
+├ ƒ /dashboard/projects/plans/pages/[id]                   1.54 kB         272 kB
+├ ƒ /dashboard/projects/plans/pages/[id]/edit              2.85 kB         314 kB
+├ ƒ /dashboard/reimbursements                              1.58 kB         144 kB
+├ ƒ /dashboard/settings                                    14.1 kB         126 kB
+├ ○ /login                                                 4.5 kB          167 kB
+├ ƒ /onboarding/[token]                                    3.81 kB         101 kB
+├ ƒ /onboarding/team/[token]                               3.98 kB         131 kB
+├ ƒ /page/[slug]                                           1.77 kB         317 kB
+├ ƒ /post/[slug]                                           1.79 kB         317 kB
+├ ○ /products                                              3.16 kB         144 kB
+├ ○ /products/gram                                         152 B           144 kB
+├ ○ /products/sniffurl                                     5.51 kB         146 kB
+├ ○ /rapydlaunch                                           7.62 kB         149 kB
+├ ○ /services                                              3.45 kB         144 kB
+├ ● /services/[slug]                                       2.32 kB         143 kB
+├   ├ /services/saas-development
+├   ├ /services/saas-maintenance
+├   ├ /services/mobile-app-development
+├   └ [+3 more paths]
+├ ○ /set-password                                          2.1 kB          143 kB
+├ ○ /status                                                2.91 kB        99.2 kB
+└ ƒ /status/[groupSlug]                                    2.42 kB        89.9 kB
++ First Load JS shared by all                              87.5 kB
+  ├ chunks/2117-74fc6047fc65c2df.js                        31.9 kB
+  ├ chunks/fd9d1056-8ff18c75d8af22c3.js                    53.7 kB
+  └ other shared chunks (total)                            1.97 kB
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses getStaticProps)
+ƒ  (Dynamic)  server-rendered on demand
+

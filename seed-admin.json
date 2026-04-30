@@ -1,0 +1,12 @@
+[
+  {
+    "email": "webwrite.co.in@gmail.com",
+    "password": "$2b$10$V6P312Ud.NDPOM9Lp.hL7uFJ4Bc0dl5tLmuO6C/Bu8PEKFrXkqAsi",
+    "name": "Admin",
+    "role": "admin",
+    "canManageContent": true,
+    "featureAccess": [],
+    "createdAt": { "$date": "2026-03-19T15:43:00.000Z" },
+    "updatedAt": { "$date": "2026-03-19T15:43:00.000Z" }
+  }
+]
